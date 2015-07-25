@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap3-tut</title>
+
+    <!--Bootstrap3-->
+    <!--Bootstrap3-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--Bootstrap3-optional-theme-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--enable responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Lesson 18. Tabs</h1>
+
+            <p>Menu dạng t.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../../index.html">Back to homepage</a></li>
+                <li><a href="../../lession/">All Lessons</a></li>
+                <li class="active"><a href="#">Current, Tabs</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Simple Tabs</h3>
+            </div>
+
+            <ul class="nav nav-tabs">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BOOK</a></li>
+                <li><a href="#">SETTINGS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Navigate each tab</h3>
+            </div>
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home" data-toggle="tab">HOME</a></li>
+                <li><a href="#book" data-toggle="tab">BOOK</a></li>
+                <li><a href="#settings" data-toggle="tab">SETTINGS</a></li>
+                <li><a href="#about" data-toggle="tab">ABOUT US</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="home">
+                    <h4>This is tab pane HOME</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut eros sit amet mauris dapibus consequat in nec eros. Donec mollis quam sed auctor ultricies. Nunc quam est, luctus eu tincidunt ut, egestas et turpis. Cras sodales, ante sit amet fringilla dignissim, tellus felis efficitur neque, id sagittis sem lorem in felis. Phasellus ac est elementum, tempus risus eget, volutpat purus. Sed iaculis tellus vel odio cursus, id scelerisque mi congue. Fusce condimentum ipsum libero, mattis ornare mi tempus quis. Ut pharetra feugiat venenatis. Aliquam egestas turpis neque, eu mattis magna sodales eu. Pellentesque varius, odio sed semper posuere, lorem lectus porta augue, pretium gravida lectus est quis quam. Etiam odio ex, egestas scelerisque dignissim in, malesuada vitae mi. Praesent nunc enim, lacinia nec ornare vitae, vulputate sed augue. Etiam aliquam velit non urna suscipit interdum nec quis lorem.
+                    </p>
+                    <p>
+                        Maecenas quis justo eget orci tempor tristique ac vel enim. In a erat at erat pharetra elementum ut a neque. Morbi semper et justo non aliquet. Vestibulum mi neque, sollicitudin vel porta eget, lacinia egestas ante. Suspendisse consequat velit augue. Mauris scelerisque, nisi eget feugiat ultrices, felis sem laoreet tortor, pharetra ultrices tortor risus vitae lacus. Suspendisse at velit faucibus lorem interdum accumsan. Cras lorem magna, sodales vel aliquam eu, varius et mauris. Ut condimentum justo sit amet interdum molestie. Nam semper nulla ac neque elementum, a vehicula arcu tincidunt. Curabitur at massa at erat fringilla dictum. Proin fringilla faucibus magna, id euismod tortor interdum in. Sed vel justo vitae urna vestibulum ullamcorper a facilisis lectus. Nam vitae eleifend sem. Nulla ullamcorper quam ex, sit amet facilisis neque sagittis at.
+                    </p>
+                    <p>
+                        Cras in arcu vitae felis condimentum suscipit id eu orci. Aenean tincidunt id erat quis laoreet. Fusce ullamcorper, augue vel egestas finibus, sem velit tempor risus, a facilisis lacus neque eget magna. Ut gravida semper mauris nec iaculis. Nam ullamcorper lacus vel molestie malesuada. In volutpat sapien a tempus volutpat. Curabitur a laoreet nisl, eget tincidunt diam. Aenean sagittis pellentesque mauris, ut sodales elit iaculis eu. Mauris venenatis ipsum ac sem luctus, sed cursus ipsum luctus. Aliquam accumsan dui vel metus pellentesque molestie. Aliquam eget blandit erat, vitae rhoncus libero. Donec malesuada elementum libero id malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent porttitor neque dolor, sed consequat ipsum elementum gravida. Pellentesque condimentum lectus sed massa vulputate, sed egestas velit sollicitudin. Proin elit ante, tincidunt et orci eget, aliquam convallis dolor.
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="book">
+                    <h4>This is tab pane BOOK</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum nibh nec nunc posuere, nec congue metus vulputate. Nullam et neque a nibh gravida dignissim. Maecenas pellentesque vestibulum diam, id dignissim tortor dapibus et. Etiam et vulputate risus, vel sollicitudin dolor. Aenean consectetur interdum erat eu malesuada. Etiam bibendum lorem sit amet dignissim fermentum. Donec ipsum diam, mattis sit amet sodales ac, iaculis non metus. Nunc varius posuere enim quis vulputate. Cras tincidunt rhoncus odio, at fermentum risus dictum et. Nulla congue nec eros in commodo. Cras ex arcu, maximus in nunc sit amet, egestas pharetra metus. Praesent aliquam enim sed posuere lacinia.
+                    </p>
+                    <p>
+                        Maecenas imperdiet sollicitudin pellentesque. Duis lorem orci, efficitur nec blandit ut, efficitur sed ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent eget aliquet est. Nam et dapibus justo. Sed laoreet purus vel est convallis, at luctus dolor vehicula. Phasellus non velit eu dui faucibus dapibus. Nam ac tincidunt nulla. Phasellus est metus, accumsan eget nisi bibendum, porttitor sodales odio.
+                    </p>
+                    <p>
+                        Nam odio erat, imperdiet sed dignissim eu, porttitor vitae lorem. Sed efficitur lacus erat, in efficitur felis semper at. Curabitur id velit ante. Vivamus rutrum ullamcorper venenatis. Morbi pharetra non nisl eu rhoncus. Curabitur dictum viverra dictum. Maecenas a justo lacinia, facilisis orci ac, iaculis ligula. Duis accumsan ultricies mi. Quisque egestas tristique faucibus. Nulla cursus lacinia felis, vitae suscipit sapien vulputate et. Mauris convallis pellentesque tempus.
+                    </p>
+                    <p>
+                        Nunc vel turpis malesuada, porttitor erat at, semper mauris. Ut nec dui diam. Cras eros turpis, finibus id lacinia in, fringilla tincidunt lacus. Sed tincidunt maximus tempus. Nunc ullamcorper commodo pretium. Proin ac tellus arcu. Nunc a diam non diam scelerisque luctus ac ut est. Curabitur at hendrerit ante. Duis eleifend venenatis volutpat.
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="settings">
+                    <h4>This is tab pane SETTINGS</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut eros sit amet mauris dapibus consequat in nec eros. Donec mollis quam sed auctor ultricies. Nunc quam est, luctus eu tincidunt ut, egestas et turpis. Cras sodales, ante sit amet fringilla dignissim, tellus felis efficitur neque, id sagittis sem lorem in felis. Phasellus ac est elementum, tempus risus eget, volutpat purus. Sed iaculis tellus vel odio cursus, id scelerisque mi congue. Fusce condimentum ipsum libero, mattis ornare mi tempus quis. Ut pharetra feugiat venenatis. Aliquam egestas turpis neque, eu mattis magna sodales eu. Pellentesque varius, odio sed semper posuere, lorem lectus porta augue, pretium gravida lectus est quis quam. Etiam odio ex, egestas scelerisque dignissim in, malesuada vitae mi. Praesent nunc enim, lacinia nec ornare vitae, vulputate sed augue. Etiam aliquam velit non urna suscipit interdum nec quis lorem.
+                    </p>
+                    <p>
+                        Maecenas quis justo eget orci tempor tristique ac vel enim. In a erat at erat pharetra elementum ut a neque. Morbi semper et justo non aliquet. Vestibulum mi neque, sollicitudin vel porta eget, lacinia egestas ante. Suspendisse consequat velit augue. Mauris scelerisque, nisi eget feugiat ultrices, felis sem laoreet tortor, pharetra ultrices tortor risus vitae lacus. Suspendisse at velit faucibus lorem interdum accumsan. Cras lorem magna, sodales vel aliquam eu, varius et mauris. Ut condimentum justo sit amet interdum molestie. Nam semper nulla ac neque elementum, a vehicula arcu tincidunt. Curabitur at massa at erat fringilla dictum. Proin fringilla faucibus magna, id euismod tortor interdum in. Sed vel justo vitae urna vestibulum ullamcorper a facilisis lectus. Nam vitae eleifend sem. Nulla ullamcorper quam ex, sit amet facilisis neque sagittis at.
+                    </p>
+                    <p>
+                        Cras in arcu vitae felis condimentum suscipit id eu orci. Aenean tincidunt id erat quis laoreet. Fusce ullamcorper, augue vel egestas finibus, sem velit tempor risus, a facilisis lacus neque eget magna. Ut gravida semper mauris nec iaculis. Nam ullamcorper lacus vel molestie malesuada. In volutpat sapien a tempus volutpat. Curabitur a laoreet nisl, eget tincidunt diam. Aenean sagittis pellentesque mauris, ut sodales elit iaculis eu. Mauris venenatis ipsum ac sem luctus, sed cursus ipsum luctus. Aliquam accumsan dui vel metus pellentesque molestie. Aliquam eget blandit erat, vitae rhoncus libero. Donec malesuada elementum libero id malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent porttitor neque dolor, sed consequat ipsum elementum gravida. Pellentesque condimentum lectus sed massa vulputate, sed egestas velit sollicitudin. Proin elit ante, tincidunt et orci eget, aliquam convallis dolor.
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="about">
+                    <h4>This is tab pane ABOUT US</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id neque libero. Vestibulum nulla ligula, condimentum non ligula nec, posuere ullamcorper orci. Quisque ipsum tellus, dictum ut risus vitae, iaculis sodales urna. Donec vitae massa eu nunc porttitor commodo ac sed sem. Mauris aliquam orci vel suscipit pellentesque. Pellentesque in felis congue, venenatis sapien euismod, imperdiet risus. Donec in aliquam nibh, eget convallis nisl. Nullam et scelerisque erat. Sed semper mi nec urna tincidunt luctus. Integer cursus felis nisi, ac aliquet dolor placerat eu. Vivamus malesuada odio id molestie rutrum. Cras vel ipsum odio. Vivamus molestie ligula gravida diam molestie, ut accumsan mauris facilisis.
+                    </p>
+                    <p>
+                        Nunc varius condimentum sem, vel suscipit nulla ultrices et. Nulla dapibus elit magna, id lobortis nisl efficitur id. Quisque sed magna ipsum. Donec vulputate finibus augue ut finibus. Nulla ac dapibus tortor. Maecenas diam diam, molestie tempus porta a, tempor tristique sapien. In egestas nisi non magna venenatis, id sodales elit euismod. Mauris mollis quam dolor, a venenatis orci consectetur eget. Duis efficitur dignissim quam, ac volutpat magna dapibus vitae.
+                    </p>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </li>
+                        <li>
+                            Sed in nisi in ante fringilla iaculis id porttitor nulla.
+                        </li>
+                        <li>
+                            Sed tempor elit eu sapien vestibulum volutpat.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Icon for tab</h3>
+            </div>
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#home2" data-toggle="tab"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                <li><a href="#book2" data-toggle="tab"><span class="glyphicon glyphicon-book"></span> BOOK</a></li>
+                <li><a href="#settings2" data-toggle="tab"><span class="glyphicon glyphicon-edit"></span> SETTINGS</a></li>
+                <li><a href="#about2" data-toggle="tab"><span class="glyphicon glyphicon-inbox"></span> ABOUT US</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="home2">
+                    <h4>This is tab pane HOME</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut eros sit amet mauris dapibus consequat in nec eros. Donec mollis quam sed auctor ultricies. Nunc quam est, luctus eu tincidunt ut, egestas et turpis. Cras sodales, ante sit amet fringilla dignissim, tellus felis efficitur neque, id sagittis sem lorem in felis. Phasellus ac est elementum, tempus risus eget, volutpat purus. Sed iaculis tellus vel odio cursus, id scelerisque mi congue. Fusce condimentum ipsum libero, mattis ornare mi tempus quis. Ut pharetra feugiat venenatis. Aliquam egestas turpis neque, eu mattis magna sodales eu. Pellentesque varius, odio sed semper posuere, lorem lectus porta augue, pretium gravida lectus est quis quam. Etiam odio ex, egestas scelerisque dignissim in, malesuada vitae mi. Praesent nunc enim, lacinia nec ornare vitae, vulputate sed augue. Etiam aliquam velit non urna suscipit interdum nec quis lorem.
+                    </p>
+                    <p>
+                        Maecenas quis justo eget orci tempor tristique ac vel enim. In a erat at erat pharetra elementum ut a neque. Morbi semper et justo non aliquet. Vestibulum mi neque, sollicitudin vel porta eget, lacinia egestas ante. Suspendisse consequat velit augue. Mauris scelerisque, nisi eget feugiat ultrices, felis sem laoreet tortor, pharetra ultrices tortor risus vitae lacus. Suspendisse at velit faucibus lorem interdum accumsan. Cras lorem magna, sodales vel aliquam eu, varius et mauris. Ut condimentum justo sit amet interdum molestie. Nam semper nulla ac neque elementum, a vehicula arcu tincidunt. Curabitur at massa at erat fringilla dictum. Proin fringilla faucibus magna, id euismod tortor interdum in. Sed vel justo vitae urna vestibulum ullamcorper a facilisis lectus. Nam vitae eleifend sem. Nulla ullamcorper quam ex, sit amet facilisis neque sagittis at.
+                    </p>
+                    <p>
+                        Cras in arcu vitae felis condimentum suscipit id eu orci. Aenean tincidunt id erat quis laoreet. Fusce ullamcorper, augue vel egestas finibus, sem velit tempor risus, a facilisis lacus neque eget magna. Ut gravida semper mauris nec iaculis. Nam ullamcorper lacus vel molestie malesuada. In volutpat sapien a tempus volutpat. Curabitur a laoreet nisl, eget tincidunt diam. Aenean sagittis pellentesque mauris, ut sodales elit iaculis eu. Mauris venenatis ipsum ac sem luctus, sed cursus ipsum luctus. Aliquam accumsan dui vel metus pellentesque molestie. Aliquam eget blandit erat, vitae rhoncus libero. Donec malesuada elementum libero id malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent porttitor neque dolor, sed consequat ipsum elementum gravida. Pellentesque condimentum lectus sed massa vulputate, sed egestas velit sollicitudin. Proin elit ante, tincidunt et orci eget, aliquam convallis dolor.
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="book2">
+                    <h4>This is tab pane BOOK</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum nibh nec nunc posuere, nec congue metus vulputate. Nullam et neque a nibh gravida dignissim. Maecenas pellentesque vestibulum diam, id dignissim tortor dapibus et. Etiam et vulputate risus, vel sollicitudin dolor. Aenean consectetur interdum erat eu malesuada. Etiam bibendum lorem sit amet dignissim fermentum. Donec ipsum diam, mattis sit amet sodales ac, iaculis non metus. Nunc varius posuere enim quis vulputate. Cras tincidunt rhoncus odio, at fermentum risus dictum et. Nulla congue nec eros in commodo. Cras ex arcu, maximus in nunc sit amet, egestas pharetra metus. Praesent aliquam enim sed posuere lacinia.
+                    </p>
+                    <p>
+                        Maecenas imperdiet sollicitudin pellentesque. Duis lorem orci, efficitur nec blandit ut, efficitur sed ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent eget aliquet est. Nam et dapibus justo. Sed laoreet purus vel est convallis, at luctus dolor vehicula. Phasellus non velit eu dui faucibus dapibus. Nam ac tincidunt nulla. Phasellus est metus, accumsan eget nisi bibendum, porttitor sodales odio.
+                    </p>
+                    <p>
+                        Nam odio erat, imperdiet sed dignissim eu, porttitor vitae lorem. Sed efficitur lacus erat, in efficitur felis semper at. Curabitur id velit ante. Vivamus rutrum ullamcorper venenatis. Morbi pharetra non nisl eu rhoncus. Curabitur dictum viverra dictum. Maecenas a justo lacinia, facilisis orci ac, iaculis ligula. Duis accumsan ultricies mi. Quisque egestas tristique faucibus. Nulla cursus lacinia felis, vitae suscipit sapien vulputate et. Mauris convallis pellentesque tempus.
+                    </p>
+                    <p>
+                        Nunc vel turpis malesuada, porttitor erat at, semper mauris. Ut nec dui diam. Cras eros turpis, finibus id lacinia in, fringilla tincidunt lacus. Sed tincidunt maximus tempus. Nunc ullamcorper commodo pretium. Proin ac tellus arcu. Nunc a diam non diam scelerisque luctus ac ut est. Curabitur at hendrerit ante. Duis eleifend venenatis volutpat.
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="settings2">
+                    <h4>This is tab pane SETTINGS</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut eros sit amet mauris dapibus consequat in nec eros. Donec mollis quam sed auctor ultricies. Nunc quam est, luctus eu tincidunt ut, egestas et turpis. Cras sodales, ante sit amet fringilla dignissim, tellus felis efficitur neque, id sagittis sem lorem in felis. Phasellus ac est elementum, tempus risus eget, volutpat purus. Sed iaculis tellus vel odio cursus, id scelerisque mi congue. Fusce condimentum ipsum libero, mattis ornare mi tempus quis. Ut pharetra feugiat venenatis. Aliquam egestas turpis neque, eu mattis magna sodales eu. Pellentesque varius, odio sed semper posuere, lorem lectus porta augue, pretium gravida lectus est quis quam. Etiam odio ex, egestas scelerisque dignissim in, malesuada vitae mi. Praesent nunc enim, lacinia nec ornare vitae, vulputate sed augue. Etiam aliquam velit non urna suscipit interdum nec quis lorem.
+                    </p>
+                    <p>
+                        Maecenas quis justo eget orci tempor tristique ac vel enim. In a erat at erat pharetra elementum ut a neque. Morbi semper et justo non aliquet. Vestibulum mi neque, sollicitudin vel porta eget, lacinia egestas ante. Suspendisse consequat velit augue. Mauris scelerisque, nisi eget feugiat ultrices, felis sem laoreet tortor, pharetra ultrices tortor risus vitae lacus. Suspendisse at velit faucibus lorem interdum accumsan. Cras lorem magna, sodales vel aliquam eu, varius et mauris. Ut condimentum justo sit amet interdum molestie. Nam semper nulla ac neque elementum, a vehicula arcu tincidunt. Curabitur at massa at erat fringilla dictum. Proin fringilla faucibus magna, id euismod tortor interdum in. Sed vel justo vitae urna vestibulum ullamcorper a facilisis lectus. Nam vitae eleifend sem. Nulla ullamcorper quam ex, sit amet facilisis neque sagittis at.
+                    </p>
+                    <p>
+                        Cras in arcu vitae felis condimentum suscipit id eu orci. Aenean tincidunt id erat quis laoreet. Fusce ullamcorper, augue vel egestas finibus, sem velit tempor risus, a facilisis lacus neque eget magna. Ut gravida semper mauris nec iaculis. Nam ullamcorper lacus vel molestie malesuada. In volutpat sapien a tempus volutpat. Curabitur a laoreet nisl, eget tincidunt diam. Aenean sagittis pellentesque mauris, ut sodales elit iaculis eu. Mauris venenatis ipsum ac sem luctus, sed cursus ipsum luctus. Aliquam accumsan dui vel metus pellentesque molestie. Aliquam eget blandit erat, vitae rhoncus libero. Donec malesuada elementum libero id malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent porttitor neque dolor, sed consequat ipsum elementum gravida. Pellentesque condimentum lectus sed massa vulputate, sed egestas velit sollicitudin. Proin elit ante, tincidunt et orci eget, aliquam convallis dolor.
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="about2">
+                    <h4>This is tab pane ABOUT US</h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id neque libero. Vestibulum nulla ligula, condimentum non ligula nec, posuere ullamcorper orci. Quisque ipsum tellus, dictum ut risus vitae, iaculis sodales urna. Donec vitae massa eu nunc porttitor commodo ac sed sem. Mauris aliquam orci vel suscipit pellentesque. Pellentesque in felis congue, venenatis sapien euismod, imperdiet risus. Donec in aliquam nibh, eget convallis nisl. Nullam et scelerisque erat. Sed semper mi nec urna tincidunt luctus. Integer cursus felis nisi, ac aliquet dolor placerat eu. Vivamus malesuada odio id molestie rutrum. Cras vel ipsum odio. Vivamus molestie ligula gravida diam molestie, ut accumsan mauris facilisis.
+                    </p>
+                    <p>
+                        Nunc varius condimentum sem, vel suscipit nulla ultrices et. Nulla dapibus elit magna, id lobortis nisl efficitur id. Quisque sed magna ipsum. Donec vulputate finibus augue ut finibus. Nulla ac dapibus tortor. Maecenas diam diam, molestie tempus porta a, tempor tristique sapien. In egestas nisi non magna venenatis, id sodales elit euismod. Mauris mollis quam dolor, a venenatis orci consectetur eget. Duis efficitur dignissim quam, ac volutpat magna dapibus vitae.
+                    </p>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </li>
+                        <li>
+                            Sed in nisi in ante fringilla iaculis id porttitor nulla.
+                        </li>
+                        <li>
+                            Sed tempor elit eu sapien vestibulum volutpat.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <a href="../../index.html">Back to homepage</a>
+        </div>
+    </div>
+
+    <!--all javascript files-->
+    <!--jQuery first-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap3-js-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
