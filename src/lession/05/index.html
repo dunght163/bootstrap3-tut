@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap3-tut</title>
+
+    <!--Bootstrap3-->
+    <!--Bootstrap3-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--Bootstrap3-optional-theme-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--enable responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Bai 5. Breadcrumbs and Images</h1>
+
+            <p>Breadcrumb là tập hợp các đường link phân cấp giúp người dùng có thể biết được mình đang ở trang nào và từ đó có thể di chuyển thuận lợi từ trang này trang khác trong 1 website.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../../index.html">Back to homepage</a></li>
+                <li><a href="../../lession/">All Lessons</a></li>
+                <li class="active"><a href="#">Current, Breadcrumbs and Images</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Image Rounded</p>
+                <div class="content-img img-responsive">
+                    <img class="img-rounded" src="../../../resources/image/301x600.jpg">
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <p>Image Circle</p>
+                <div class="content-img img-responsive">
+                    <img class="img-circle" src="../../../resources/image/601x600.jpg">
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <p>Image Thumbnail</p>
+                <div class="content-img img-responsive">
+                    <img class="img-thumbnail" src="../../../resources/image/801x600.jpg">
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <p>Image can not be displayed</p>
+                <div class="content-img img-responsive">
+                    <img class="img-circle" src="../../../resources/image/?x?.jpg" alt="?x?.jpg">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <a href="../../index.html">Back to homepage</a>
+        </div>
+    </div>
+
+    <!--all javascript files-->
+    <!--jQuery first-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap3-js-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

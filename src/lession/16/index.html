@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap3-tut</title>
+
+    <!--Bootstrap3-->
+    <!--Bootstrap3-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--Bootstrap3-optional-theme-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--enable responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3 style="margin-top: 60px">Navbar and inverse navbar-fixed-top (always on top)</h3>
+            </div>
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">All Books</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h1>Lesson 16. Navbar and properties</h1>
+
+            <p>Navigation bar</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../../index.html">Back to homepage</a></li>
+                <li><a href="../../lession/">All Lessons</a></li>
+                <li class="active"><a href="#">Current, Navbar and properties</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Navbar and navbar-static-top (not circle corners)</h3>
+            </div>
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">All Books</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Navbar and navbar-left/right</h3>
+            </div>
+
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">All Books</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Navbar and navbar-form right</h3>
+            </div>
+
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">All Books</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                    <form class="nav navbar-nav navbar-right navbar-form">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="search">
+                        </div>
+                        <button class="btn btn-info" type="button">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Navbar and navbar-left/right</h3>
+            </div>
+
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">All Books</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                    <!--not satisfy, when mobile, search is right, not button???-->
+                    <div class="nav navbar-nav navbar-right">
+                        <a href="#" class="btn btn-success navbar-btn">Login</a>
+                        <a href="#" class="btn btn-warning navbar-btn">Register</a>
+                        <a href="#" class="btn btn-info">Not-Navbar-btn</a>
+                    </div>
+                    <!--not satisfy, when mobile, search is right, not button???-->
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="search">
+                        </div>
+                        <button class="btn btn-info" type="button">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Content</h3>
+
+        <p class="text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare porta dui et mollis. Etiam imperdiet, nunc id sagittis sagittis, magna orci sagittis neque, vitae rutrum tortor ipsum vitae nisi. Vestibulum nulla elit, tristique vel mattis eget, venenatis id eros. Duis eget gravida justo, eu bibendum risus. Mauris varius odio mi, sit amet vestibulum nisi interdum eget. In hac habitasse platea dictumst. Maecenas laoreet non tortor in sollicitudin. Nam eros tortor, mollis vulputate lorem id, sodales egestas elit. Etiam ac blandit nisl, a lobortis nisi. Maecenas at luctus eros.
+        </p>
+
+        <p class="text-justify">
+            Cras blandit magna finibus ligula pulvinar, in egestas nunc dignissim. Proin maximus purus eget tempor accumsan. Aenean a vulputate dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed porta cursus commodo. Fusce vitae vehicula ipsum. Mauris lacus odio, mollis vitae nisi vel, vulputate aliquam sapien. Curabitur finibus massa augue, et mollis nisl efficitur eget. Nunc sollicitudin laoreet velit, at vehicula arcu elementum in. Etiam id interdum ipsum, id consectetur arcu. Aenean placerat augue quis ipsum molestie hendrerit. Morbi fringilla purus iaculis velit euismod varius. Praesent imperdiet, felis eget imperdiet pharetra, sapien neque elementum arcu, non dignissim metus lectus ut ligula. Suspendisse non sapien vitae mi dignissim malesuada.
+        </p>
+
+        <p class="text-justify">
+            Integer eleifend, lacus at posuere tempus, odio lectus fermentum diam, sed viverra mauris sem in dui. Aliquam erat volutpat. Curabitur in pulvinar lectus. Pellentesque vel cursus est. Nam rhoncus porttitor leo, non sollicitudin lorem vulputate ac. Aliquam nec nunc ipsum. Aenean convallis libero felis, et pellentesque diam porttitor ac. In ut eros egestas, semper lacus sed, pulvinar quam. Fusce congue accumsan quam. Vestibulum vitae finibus ligula. Phasellus in ante lacinia, molestie nibh ullamcorper, egestas augue. Donec id condimentum urna. Sed laoreet auctor maximus. In malesuada, diam sit amet tincidunt scelerisque, sapien nunc aliquam ex, vitae faucibus enim ante vel elit. Cras id dui quis risus pulvinar facilisis vitae vel ante. Ut id pellentesque lorem.
+        </p>
+
+        <p class="text-justify">
+            Mauris sit amet ultrices nunc. Suspendisse vel nibh mi. Phasellus suscipit ante ac justo egestas, vel ornare risus tristique. Curabitur pellentesque vehicula urna eget commodo. Morbi ipsum metus, accumsan nec velit tempor, mattis ultricies purus. Suspendisse potenti. Sed tempus, ante aliquet elementum consequat, ipsum felis condimentum eros, eget varius mauris nisl in turpis. Nullam felis augue, tempus ac luctus at, sagittis in arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu pulvinar mauris. In ullamcorper leo et lorem accumsan vulputate. Vestibulum eget eros mi. Vestibulum nibh dui, finibus eu tortor varius, convallis auctor urna. Etiam pharetra odio nec est elementum pharetra. Donec ac ex in nibh porttitor vulputate. Vestibulum tristique porta semper.
+        </p>
+
+        <p class="text-justify">
+            Sed pharetra a nulla malesuada finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla congue orci non rutrum. Sed ut metus sagittis, pretium augue et, pretium lectus. In eget luctus eros. Nunc mollis sapien pretium velit luctus maximus. Integer mauris orci, pellentesque sit amet ex ac, volutpat luctus metus. Nunc mattis egestas tincidunt. Nullam imperdiet nibh vel massa hendrerit hendrerit. Aliquam molestie et ipsum ac blandit. Integer eget commodo nunc. Praesent vel ex ac ipsum sodales semper vitae quis nibh. Cras at semper sem. Suspendisse finibus dolor ut egestas pulvinar. Nullam ut mauris id ex dapibus ullamcorper vitae sed elit. Proin justo nunc, sagittis id pharetra vel, ullamcorper at diam.
+        </p>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <a href="../../index.html">Back to homepage</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3 style="margin-bottom: 60px">Navbar and navbar-fixed-bottom (always under bottom)</h3>
+            </div>
+
+            <nav class="navbar navbar-inverse navbar-fixed-bottom">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">All Books</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--all javascript files-->
+    <!--jQuery first-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap3-js-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap3-tut</title>
+
+    <!--Bootstrap3-->
+    <!--Bootstrap3-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--Bootstrap3-optional-theme-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--enable responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Lesson 9. Form</h1>
+
+            <p>Form chính là thành phần không thể thiếu đối với website, thường mất nhiều thời gian vào việc canh lề cho thẻ label, chỉnh margin & padding cho khung form, ...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../../index.html">Back to homepage</a></li>
+                <li><a href="../../lession/">All Lessons</a></li>
+                <li class="active"><a href="#">Current, Form</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Vertical form</h3>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input class="form-control" type="text" placeholder="Your username">
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control" type="password" placeholder="Your password">
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">
+                        Remember
+                    </label>
+                </div>
+
+                <button class="btn btn-success" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Horizontal form</h3>
+            </div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-1">Email</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="email" placeholder="Your email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-1">Password</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="password" placeholder="Your password">
+                    </div>
+                </div>
+
+                <div class="checkbox col-sm-11 col-sm-offset-1">
+                    <label>
+                        <input type="checkbox">
+                        Remember
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-1 col-sm-offset-1">
+                        <button class="btn btn-primary" type="submit">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Inline form</h3>
+            </div>
+            <form class="form-inline col-sm-10 col-sm-offset-1">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Your email">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" type="date" placeholder="Your age">
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" type="number" placeholder="Your phone">
+                </div>
+
+                <button class="btn btn-warning" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        function checkUserName() {
+            document.getElementById('checkResult').innerHTML = 'Valid! You can use this username';
+        }
+    </script>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Vertical form with reset button</h3>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input class="form-control" type="text" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <input class="form-control" type="text" placeholder="Your username">
+                </div>
+
+                <button class="btn btn-link" type="button" onclick="checkUserName();">Check</button>
+                <p id="checkResult" class="label-success"></p>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control" type="password" placeholder="Your password">
+                </div>
+
+                <div class="form-group">
+                    <label>Re-Password</label>
+                    <input class="form-control" type="password" placeholder="Your password again">
+                </div>
+
+                <div class="form-group">
+                    <label>Birthday</label>
+                    <input class="form-control" type="date" placeholder="Your birthday">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input class="form-control" type="email" placeholder="Your email">
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input class="form-control" type="number" placeholder="Your phone">
+                </div>
+
+                <!--<div class="form-group">-->
+                    <!--<label>Gender</label>-->
+                    <!--<label>-->
+                        <!--Male-->
+                        <!--<input class="checkbox" type="radio">-->
+                        <!--Female-->
+                        <!--<input class="checkbox" type="radio">-->
+                    <!--</label>-->
+                <!--</div>-->
+
+                <button class="btn btn-success" type="submit">Register</button>
+
+                <button class="btn btn-success" type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <a href="../../index.html">Back to homepage</a>
+        </div>
+    </div>
+
+    <!--all javascript files-->
+    <!--jQuery first-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap3-js-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

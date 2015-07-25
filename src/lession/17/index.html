@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap3-tut</title>
+
+    <!--Bootstrap3-->
+    <!--Bootstrap3-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--Bootstrap3-optional-theme-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--enable responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Lesson 17. Dropdown menu</h1>
+
+            <p>Giúp chúng ta tạo ra các menu xổ xuống.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../../index.html">Back to homepage</a></li>
+                <li><a href="../../lession/">All Lessons</a></li>
+                <li class="active"><a href="#">Current, Dropdown menu</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Simple Dropdown menu</h3>
+            </div>
+
+            <div class="dropdown">
+                <a href="#" data-toggle="dropdown">Dropdown Menu <span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="active"><a href="#">Menu1</a></li>
+                    <li><a href="#">Menu2</a></li>
+                    <li><a href="#">Menu3</a></li>
+                    <li class="disabled"><a href="#">Menu4 - disabled</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Dropdown with separate line</h3>
+            </div>
+
+            <div class="dropdown">
+                <a href="#" data-toggle="dropdown">Dropdown menu <span class="glyphicon glyphicon-menu-down"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="active"><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Item 4</a></li>
+                    <li><a href="#">Item 5</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Dropdown with navbar</h3>
+            </div>
+
+            <nav class="nav navbar-inverse">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-transfer"></span> Transfer brand</a>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-book"></span> BOOKS</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-console"></span> SETTINGS</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-flash"></span> ABOUT US</a></li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Dropdown menu <span class="glyphicon glyphicon-menu-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                                <li><a href="#">Item 3</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Item 4</a></li>
+                                <li><a href="#">Item 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Dropdown with navbar and navbar-right (MUST CREATE new &lt;ul&gt; for dropdown!!!)</h3>
+            </div>
+
+            <nav class="nav navbar-inverse">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="dropdown" data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <!--<span class="glyphicon glyphicon-menu-hamburger"></span>-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-transfer"></span> Transfer brand</a>
+                </div>
+
+                <div class="navbar-collapse collapse" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-book"></span> BOOKS</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-console"></span> SETTINGS</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-flash"></span> ABOUT US</a></li>
+                    </ul>
+
+                    <!--<form class="navbar-form navbar-right">-->
+                        <!--<div class="form-group">-->
+                            <!--<input class="form-control" type="text" placeholder="search">-->
+                        <!--</div>-->
+                        <!--<button class="btn btn-info" type="button">Search</button>-->
+                    <!--</form>-->
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Dropdown menu <span class="glyphicon glyphicon-menu-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                                <li><a href="#">Item 3</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Item 4</a></li>
+                                <li><a href="#">Item 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <a href="../../index.html">Back to homepage</a>
+        </div>
+    </div>
+
+    <!--all javascript files-->
+    <!--jQuery first-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap3-js-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

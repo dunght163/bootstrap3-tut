@@ -1,0 +1,17 @@
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #c3325f;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #00b3ee;
+}
+
+.row > div {
+    border: 1px solid #2b542c;
+    background-color: #b9def0;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap3-tut</title>
+
+    <!--Bootstrap3-->
+    <!--Bootstrap3-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--Bootstrap3-optional-theme-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--enable responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Bai 6. Pagination</h1>
+
+            <p>Hầu hết mọi website đều sử dụng nó để làm nhiệm vụ giới hạn dữ liệu trên một trang.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../../index.html">Back to homepage</a></li>
+                <li><a href="../../lession/">All Lessons</a></li>
+                <li class="active"><a href="#">Current, Pagination</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>Pagination basic</h2>
+
+            <ul class="pagination">
+                <li><a href="#"><span class="glyphicon glyphicon-circle-arrow-left"></span></a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <h2>Pagination active and disable</h2>
+
+            <ul class="pagination">
+                <li class="disabled"><a href="#"><span class="glyphicon glyphicon-circle-arrow-left"></span></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <h2>Pagination using pager</h2>
+
+            <ul class="pager">
+                <li><a href="#">Prev</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <a href="../../index.html">Back to homepage</a>
+        </div>
+    </div>
+
+    <!--all javascript files-->
+    <!--jQuery first-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap3-js-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

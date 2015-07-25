@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap3-tut",
+  "version": "0.0.0",
+  "authors": [
+    "dunght160387 <dunght1603@gmail.com>"
+  ],
+  "description": "learning bootstrap3",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap3-tut</title>
+
+    <!--Bootstrap3-->
+    <!--Bootstrap3-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--Bootstrap3-optional-theme-css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <!--main.css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--enable responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Lesson 11. List group</h1>
+
+            <p>Dùng các tag &lt;ul&gt; &lt;li&gt; để tạo ra các định dạng menu ngang,dọc</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb">
+                <li><a href="../../index.html">Back to homepage</a></li>
+                <li><a href="../../lession/">All Lessons</a></li>
+                <li class="active"><a href="#">Current, Button</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>Un-styled for UnOrderedList (ul) and OrderedList (ol)</h3>
+            </div>
+
+            <div>
+                <h4>Styled by html default</h4>
+
+                <ul>
+                    <li>
+                        List item 1
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                List item 21
+                            </li>
+                            <li>
+                                List item 22
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        List item 3
+                    </li>
+                    <li>
+                        List item 4
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Un-Styled for ul</h4>
+
+                <ul class="list-unstyled">
+                    <li>
+                        List item 1
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                List item 21
+                            </li>
+                            <li>
+                                List item 22
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        List item 3
+                    </li>
+                    <li>
+                        List item 4
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Un-Styled for ol</h4>
+
+                <ol class="list-unstyled">
+                    <li>
+                        List item 1
+                    </li>
+                    <li>
+                        <ol>
+                            <li>
+                                List item 21
+                            </li>
+                            <li>
+                                List item 22
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        List item 3
+                    </li>
+                    <li>
+                        List item 4
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>List inline as horizontal</h3>
+            </div>
+
+            <ul class="list-inline">
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+                <li>List item 5</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>List group as vertical</h3>
+            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item">List item 1</li>
+                <li class="list-group-item">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            List item 21
+                        </li>
+                        <li class="list-group-item">
+                            List item 22
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-group-item">List item 3</li>
+                <li class="list-group-item">List item 4</li>
+                <li class="list-group-item">List item 5</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h3>List group for &lt;a&gt;</h3>
+            </div>
+
+            <div>
+                <a class="list-group-item" href="#">List item 1</a>
+                <div class="list-group-item">
+                    <a class="list-group-item" href="#">
+                        List item 21
+                    </a>
+                    <a class="list-group-item" href="#">
+                        List item 22
+                    </a>
+                </div>
+                <a class="list-group-item active" href="#">List item 3 - active</a>
+                <a class="list-group-item" href="#">List item 4</a>
+                <a class="list-group-item" href="#">List item 5</a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <a href="../../index.html">Back to homepage</a>
+        </div>
+    </div>
+
+    <!--all javascript files-->
+    <!--jQuery first-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap3-js-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
