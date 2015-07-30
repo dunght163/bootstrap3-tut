@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Simple block with Bootstrap3</title>
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!--Bootstrap theme css-->
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!--Custom css-->
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <!--navigation bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!--container-->
+        <div class="container">
+            <!--nav-->
+            <div class="navbar-header">
+                <!--responsive button-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="sr-only">Responsive menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--brand-->
+                <a class="navbar-brand"><span class="glyphicon glyphicon-share"></span> Blog</a>
+            </div>
+
+            <!--nav collapse-->
+            <div class="navbar-collapse collapse" id="menu">
+                <!--navbar left-->
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> Introduce</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> News</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> Contact</a></li>
+                </ul>
+
+                <!--navbar right-->
+                <div class="navbar-right">
+                    <button class="btn btn-info navbar-btn"> Login</button>
+                    <button class="btn btn-primary navbar-btn"> Register</button>
+                </div>
+
+                <!--search box also navbar right-->
+                <form class="navbar-form navbar-right navbar">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Search">
+                    </div>
+                    <button class="btn btn-info" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--blog body content-->
+    <div class="container content-padding-top">
+        <!--jumbotron-->
+        <div class="jumbotron">
+            <h1>Simple blog</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+            </p>
+            <button class="btn btn-primary" onclick="">Read more</button>
+        </div>
+
+        <!--slogan-->
+        <div class="row">
+            <div class="col-sm-12">
+                <h2><span class="glyphicon glyphicon-star-empty"></span> Blog Blog Blog <span class="glyphicon glyphicon-star-empty"></span></h2>
+            </div>
+        </div>
+
+        <!--blog entries-->
+        <div class="row entry">
+            <!--image-->
+            <div class="col-sm-7">
+                <img src="../../../resources/image/301x600.jpg" alt="IMG" class="img-responsive">
+            </div>
+
+            <!--content-->
+            <div class="col-sm-5">
+                <h3>Entry 1: Lorem ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                </p>
+            </div>
+            <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+        </div>
+
+        <hr>
+
+        <div class="row entry">
+            <!--image-->
+            <div class="col-sm-7">
+                <img src="../../../resources/image/601x600.jpg" alt="IMG" class="img-responsive">
+            </div>
+
+            <!--content-->
+            <div class="col-sm-5">
+                <h3>Entry 2: Lorem ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                </p>
+            </div>
+            <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+        </div>
+
+        <hr>
+
+        <div class="row entry">
+            <!--image-->
+            <div class="col-sm-7">
+                <img src="../../../resources/image/801x600.jpg" alt="IMG" class="img-responsive">
+            </div>
+
+            <!--content-->
+            <div class="col-sm-5">
+                <h3>Entry 3: Lorem ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                </p>
+            </div>
+            <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+        </div>
+
+        <hr>
+
+        <!--pagination-->
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <ul class="pagination">
+                    <li><a>&Lt;</a></li>
+                    <li><a>1</a></li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                    <li><a>&Gt;</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4>-- Blog footer --</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <!--script jquery-->
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!--script bootstrap-->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

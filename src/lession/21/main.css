@@ -1,0 +1,18 @@
+.content-padding-top {
+    padding-top: 50px;
+}
+
+.row.entry {
+    border: 1px solid #c3325f;
+    border-radius: 10px;
+    background-color: #d2ddff;
+    padding: 10px;
+}
+
+.row.entry img {
+    margin: auto;
+}
+
+.row.entry p {
+    text-align: justify;
+}
