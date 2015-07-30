@@ -66,114 +66,271 @@
         </div>
     </nav>
 
-    <!--blog body content-->
-    <div class="container content-padding-top">
-        <!--jumbotron-->
-        <div class="jumbotron">
+    <!--jumbotron-->
+    <div class="jumbotron">
+        <div class="container content-padding-top">
             <h1>Simple blog</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
             </p>
             <button class="btn btn-primary" onclick="">Read more</button>
         </div>
+    </div>
 
-        <!--slogan-->
-        <div class="row">
-            <div class="col-sm-12">
-                <h2><span class="glyphicon glyphicon-star-empty"></span> Blog Blog Blog <span class="glyphicon glyphicon-star-empty"></span></h2>
+    <div class="row">
+        <!--blog body left-->
+        <div class="col-sm-2" id="panelLeft">
+            <div class="content-left">
+                <p>Left</p>
             </div>
         </div>
 
-        <!--blog entries-->
-        <div class="row entry">
-            <!--image-->
-            <div class="col-sm-7">
-                <img src="../../../resources/image/301x600.jpg" alt="IMG" class="img-responsive">
+        <!--blog body content at center-->
+        <div class="col-sm-8">
+            <!--slogan-->
+            <div class="row">
+                <div>
+                    <h2 class="text-center"><span class="glyphicon glyphicon-star-empty"></span> Blog Blog Blog <span class="glyphicon glyphicon-star-empty"></span></h2>
+                </div>
             </div>
 
-            <!--content-->
-            <div class="col-sm-5">
-                <h3>Entry 1: Lorem ipsum</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
-                </p>
+            <!--blog entries-->
+            <div class="tab-content">
+                <!--first tab-pane MUST has "in" for initialization-->
+                <div class="tab-pane fade in active" id="page1">
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/301x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 1: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/601x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 2: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/801x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 3: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="page2">
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/302x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 4: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/602x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 5: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/802x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 6: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="page3">
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/303x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 7: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/603x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 8: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row entry">
+                        <!--image-->
+                        <div class="col-sm-7">
+                            <img src="../../../resources/image/803x600.jpg" alt="IMG" class="img-responsive">
+                        </div>
+
+                        <!--content-->
+                        <div class="col-sm-5">
+                            <h3>Entry 9: Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+                </div>
             </div>
-            <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
+            <!--end blog entries-->
+
+            <hr>
+
+            <!--pagination-->
+            <div class="row">
+                <div class="col-sm-11 text-center">
+                    <ul class="pagination">
+                        <li><a id="btnPrev">&Lt;</a></li>
+                        <li class="active"><a href="#page1" data-toggle="tab" id="btnPage1">1</a></li>
+                        <li><a href="#page2" data-toggle="tab" id="btnPage2">2</a></li>
+                        <li><a href="#page3" data-toggle="tab" id="btnPage3">3</a></li>
+                        <li><a id="btnNext">&Gt;</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-1">
+                    <a class="btn btn-info" id="btnGoTop"><span class="glyphicon glyphicon-arrow-up"></span> Top</a>
+                </div>
+
+            </div>
         </div>
 
-        <hr>
-
-        <div class="row entry">
-            <!--image-->
-            <div class="col-sm-7">
-                <img src="../../../resources/image/601x600.jpg" alt="IMG" class="img-responsive">
-            </div>
-
-            <!--content-->
-            <div class="col-sm-5">
-                <h3>Entry 2: Lorem ipsum</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
-                </p>
-            </div>
-            <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
-        </div>
-
-        <hr>
-
-        <div class="row entry">
-            <!--image-->
-            <div class="col-sm-7">
-                <img src="../../../resources/image/801x600.jpg" alt="IMG" class="img-responsive">
-            </div>
-
-            <!--content-->
-            <div class="col-sm-5">
-                <h3>Entry 3: Lorem ipsum</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus dolor. Nam nec urna feugiat, euismod arcu a, ornare ligula. Aenean sit amet tempus elit, quis commodo magna. Integer blandit, diam ut faucibus vehicula, est neque bibendum diam, eget cursus lectus metus in erat. Duis sed quam convallis, tincidunt enim nec, consequat nulla. Aliquam eget nibh fringilla, pretium diam ac, blandit purus. Quisque non justo tincidunt, pellentesque neque quis, vulputate enim. Nulla gravida dictum ullamcorper. Donec auctor venenatis justo, nec aliquet libero pretium eget. Integer nec purus pharetra, sollicitudin quam ac, bibendum velit.
-                </p>
-            </div>
-            <a href="#" class="btn btn-primary">Read <span class="glyphicon glyphicon-arrow-right"></span></a>
-        </div>
-
-        <hr>
-
-        <!--pagination-->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <ul class="pagination">
-                    <li><a>&Lt;</a></li>
-                    <li><a>1</a></li>
-                    <li><a>2</a></li>
-                    <li><a>3</a></li>
-                    <li><a>&Gt;</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!--footer-->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h4>-- Blog footer --</h4>
+        <!--blog body right-->
+        <div class="col-sm-2" id="panelRight">
+            <div class="content-right">
+                <p>Right</p>
             </div>
         </div>
     </div>
 
+    <!--footer-->
+    <div class="row footer jumbotron">
+        <div class="col-sm-12 text-center">
+            <h4>-- Blog footer --</h4>
+        </div>
+    </div>
 
     <!--script jquery-->
     <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
 
     <!--script bootstrap-->
     <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!--custom js-->
+    <script src="main.js"></script>
 </body>
 </html>

@@ -2,10 +2,14 @@
     padding-top: 50px;
 }
 
+.jumbotron p {
+    text-align: justify;
+}
+
 .row.entry {
     border: 1px solid #c3325f;
     border-radius: 10px;
-    background-color: #d2ddff;
+    background-color: #c5e1ff;
     padding: 10px;
 }
 
@@ -15,4 +19,18 @@
 
 .row.entry p {
     text-align: justify;
+}
+
+#panelLeft, #panelRight {
+    padding: 0 10px;
+}
+
+#panelLeft > .content-left, #panelRight > .content-right {
+    border: 1px solid #4cae4c;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.footer.jumbotron {
+    margin-top: 40px;
 }
